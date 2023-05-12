@@ -1,0 +1,149 @@
+<html lang="en">
+    <head>
+	     <meta charset="utf-8">
+	     <title>Bonsai Trees</title>
+         <link rel="icon" href="favicon.ico">
+		 <!---[if lte IE 7]>
+		 <script type="text/javascript"
+		 src="js/IE Drop-Down.js"></script>
+		 <![end if]-->
+		  <style>	
+         div#nav ul{
+		 padding: 2;
+		 margin:0;
+		 background-color: black;
+         font-style: fantasy;
+      }
+   
+       body{
+        background-image: url('https://as2.ftcdn.net/v2/jpg/02/44/87/99/1000_F_244879933_hSy8tdoLiWAYmNI7B583MvWIpuIX3dMb.jpg');
+      
+		 }
+
+		 div#nav ul li{
+		        float:left;
+				list-style:none;
+				padding:1;
+                 font-style: fantasy;
+		  }		  
+		  
+		  div#nav ul li a{
+		       padding:7px 15px;
+			   display:block;
+			   text-decoration:none;
+			   color: red;
+			   border-right: 2px solid red;
+		  }
+		  
+		   div#nav ul ul {
+		      position:absolute;
+			  left:-999em;
+		  }
+		  
+		  div#nav ul li:hover ul,
+		  div#nav ul li.sfhover ul{
+			  left:auto;
+		  }
+		  
+		 div#nav ul li ul li{
+			  float:none;
+		  }
+		  
+		  div#nav ul li ul li a{
+			  border-right:none;
+		  }
+		  
+		  div#nav ul li a:hover,
+		  div#nav ul li:hover a,
+		  div#nav ul li.sfhover a{
+			  background-color: white;
+		  }
+		  
+		  div#nav ul li:hover ul li a,
+		  div#nav ul li.sfhover ul li a{
+		  background-color: black;
+		  }
+		  
+		  div#nav ul li:hover ul li a:hover,
+		  div#nav ul li.sfhover ul li a:hover{
+		  background-color: black;
+		  }
+		  
+		  div#nav ul li.last a{
+		  border-right:none;
+		  }
+		  
+		  .clearfix:after{
+		   content:".";
+		   display:block;
+		   height:0;
+		   clear:both;
+		   visibility:hidden;
+		  }
+		  
+		  .clearfix{
+		  display:inline-block;
+		  }
+		  
+		  /* Hides from IE-Mac\*/
+		  
+		  *html.clearfix{
+		   height:1%;
+		   }
+		   
+		   .clearfix{
+		   display:block;
+		   }
+		   /* End hide from IE-Mac */
+		   
+		    /* Fix for sticky IE hover */
+			div#nav ul li:hover, div#nav ul li.sfhover{
+			position:static;
+			} 
+            #treetypes{
+            	font-size: 100px;
+                font-style: Bradley Hand, cursive;
+                color: black;
+                -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
+                
+                }
+                #trees{
+                font-size: 18px;
+                color: red;
+                background-color: white;
+               
+                }
+         
+      	   span{
+                text-decoration: underline;
+                color: black;
+                }
+         
+
+		</style>
+    </head>
+
+    <body>
+	    <div id="nav">
+		    <ul class="clearfix">
+			      <li><a href="link">Different Species</a></li>
+                  <li><a href="link">Tree Care</a></li>
+                  <li><a href="link">Growing and Cultivating</a></li>
+			 
+			   </ul> 
+               
+
+	
+    
+    <div id="titles">
+    <p id="treetypes">Different Bonsai Tree Species
+    <p id="trees"><span>Ficus Bonsai</span> = The Ficus genus belongs to the family of mulberry plants or Moraceae, and it’s the most popular indoor tree species for Bonsai beginners. They can be found on every continent in the tropic regions and are very suitable for indoor Bonsai.</p>
+     <p id="trees"><span>Juniper Bonsai</span> = The juniper genus is made up of about 50 to 70 different species within the cypress family. They are evergreen coniferous trees or shrubs, which are very popular for Bonsai. Junipers can have two types of foliage, needle-like, and scale-like foliage.</p>
+       <p id="trees"><span>Japanese Maple</span> = The Japanese Maple, otherwise known as Acer palmatum, is originally from Japan, China, and Korea. It owes its botanical name to the hand-shaped leaves with five pointed lobes. Palma is Latin for palm, as in the palm of your hand.</p>
+    
+    
+    </div>
+    
+    </body>
+</html>
